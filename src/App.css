@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: horizontal;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.headerLink {
+  border: solid black;
+  border-radius: 15%;
+  background-color: grey;
+  text-decoration: none;
+  color: white;
+  margin: 2%;
+  padding: 1%;
+}
+
+.contentText {
+  padding-left: 5%;
+}
+.isUserMessage {
+  padding-left: 5%;
+}
+.notUserMessage {
+  padding-left: 40%;
+}
+
+.adminDelete {
+  border: 1px solid black;
+}
